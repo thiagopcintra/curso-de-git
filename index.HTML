@@ -54,7 +54,7 @@
     git checkout <nome do branch> - muda o branch em que se está trabalhando
 
     git checkout -b <nome do branch> - já cria o branch e já te coloca nele
-        
+         
     O merge junta os trabalhos e gera um merge commit
     O rebase aplica os commits de outra branch na branch atual
 
@@ -73,10 +73,14 @@
     git checkout <hash> - "volta no tempo" dentro das modificações feitas
     para que as alteções sejam salvas é preciso criar uma nova branch - git checkout -b <nome da branch>
 
-
-
-
+    git diff - mostra as diferenças dentro dos códigos
+    git diff <hash> <hash> - mostra diferença entre dois commits
     
-    
+    git tag -a <nome da tag> -m <mensagem> - gria um marco na aplicação, alterações não podem mais ser realzadas
+    no caso, seria necessário alterar em uma nova versão do nosso código.
+
+    git push local <tag> - envia a tag pro servidor
+
+    git push origin <tag> - envia pro git hub
     
 -->
